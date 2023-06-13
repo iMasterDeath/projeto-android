@@ -87,7 +87,7 @@ main {
 
 #conteiner {
     padding: 24px;
-    width: 55%;
+    width: 60%;
     background: white;
     box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.42);
 }  
@@ -174,11 +174,9 @@ background: linear-gradient(280deg, rgba(255,255,255,1) 30%, rgba(206,244,212,1)
 }
 
 #bugdroid {
-    max-width: 350%;
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: flex;
+    width: 50%;
+    margin: 15px auto;
 }
 
 div.video {
@@ -281,4 +279,14 @@ footer > p > a {
 footer > p > a:hover {
         color: white;
         text-decoration: underline;
+}
+
+@media  (min-width: 320px) and (max-width:550px){
+
+    #bugdroid {
+
+    width:10rem;
+
+
+    }
 }
